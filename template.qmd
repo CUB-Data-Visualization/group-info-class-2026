@@ -5,7 +5,7 @@ embed-resources: true
 editor: source
 ---
 
-# Name: ? (preferred pronouns)
+# Name: Bianca Artigas (she/her)
 
 > Add your name and preferred pronouns in the heading above.
 
@@ -13,9 +13,9 @@ editor: source
 
 > What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
 
--   Language1 (beginner/intermediate/advanced/expert)
+-   Language1 (beginner/intermediate/advanced/expert) R (intermadiate high?)
 
--   Language2 (beginner/intermediate/advanced/expert)
+-   Language2 (beginner/intermediate/advanced/expert) Python (beginner)
 
 ::: callout-note
 ## Levels
@@ -30,11 +30,11 @@ editor: source
 
 > List three goals you would like to accomplish through this class. This can be anything from things you'd like to know, skills you'd like to learn or improve, concepts you'd like to understand or apply, etc.
 
-1.  
+1.  Writing code without online help
 
-2.  
+2.  Data visualiziation other than my very specific use in aftershock forecast maps
 
-3.  
+3.  Fluency in source control and markdown files
 
 # 3. Favorite equation
 
@@ -44,13 +44,17 @@ editor: source
 
 $$
 E = m \cdot c^2
-$${#eq-fav}
+$$ {#eq-fav}
 
 {{< pagebreak >}}
 
+$$
+ W = \int_{x_1}^{x_2} \vec{F} \cdot \mathrm{d}\vec{r}
+$$
+
 # 4. Favorite flow chart
 
-> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`. 
+> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`.
 
 @fig-chart shows my favorite flow chart.
 
