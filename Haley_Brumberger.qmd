@@ -69,12 +69,12 @@ Click on the "Preview" button above the code block to render your chart or use t
 
 > Add a picture of yourself doing something you enjoy outside school (hiking, cooking, playing music, reading, etc) to the `images` folder and link to it here with a descriptive caption by changing the `fix-cap` below. Make sure that images are not too big and in **jpeg/jpg** or **png** format. A width of 600 to maximally 1200 pixels is typically plenty large (i.e. less than **\~2Mb**). You can scale your image to these dimensions using any photo editing software. For example, a convenient free online tool for scaling images is available at <http://www.simpleimageresizer.com/>. Lastly, the file names are case-sensitive! So `example.PNG` (upper-case PNG) is not the same as `example.png` (lower-case png), make sure that you have the filename correctly.
 
-@fig-fun shows how much fun I'm having.
+@fig-fun is me after a hockey game--I play in a league on Monday nights.
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: My kids love colorful dinosaurs.
+#| fig-cap: Thumbs up for hockey! My team name is "The Icemen Cometh," a reference from It's Always Sunny in Philadelphia. I designed our jerseys!
 #| echo: FALSE
 #| out-width: 100%
-knitr::include_graphics("images/example.png")
+knitr::include_graphics("images/Haley_hockey.jpeg")
 ```
