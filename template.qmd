@@ -1,15 +1,15 @@
----
+douglas.qmd---
 title: GitHub & Markdown Exercise
 format: html
 embed-resources: true
 editor: source
 ---
 
-# Name: ? (preferred pronouns)
+# Name: Douglas
 
 > Add your name and preferred pronouns in the heading above.
 
-# 1. Programming Experience
+# 1. R, intermediate
 
 > What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
 
