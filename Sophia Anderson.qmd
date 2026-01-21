@@ -1,4 +1,4 @@
-douglas.qmd---
+Sophia Anderson.qmd---
 title: GitHub & Markdown Exercise
 format: html
 embed-resources: true
@@ -7,7 +7,7 @@ editor: source
 
 # Name: Douglas
 
-> Add your name and preferred pronouns in the heading above.
+> Sophia Anderson
 
 # 1. R, intermediate
 
