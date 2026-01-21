@@ -7,8 +7,6 @@ editor: source
 
 # Name: Harry Allbrook (he/him/his)
 
-> Add your name and preferred pronouns in the heading above.
-
 # 1. Programming Experience
 
 > What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
