@@ -32,9 +32,9 @@ $${#eq-fav}
 %%| label: fig-chart
 %%| fig-cap: Version control flowchart to figure out of someone is super cool and likes bugs. 
 graph LR 
-        A{{Do you want to hear a fun fact about bugs?}}  -->|No| B((That's too bad))
-        A --> |Yes| C[/Termite queens can lay around 40,000 eggs a day/]
-        B --> C
+A{{Do you want to hear a fun fact about bugs?}}  -->|No| B((That's too bad))
+A --> |Yes| C[/Termite queens can lay around 40,000 eggs a day/]
+B --> C
 ```
 
 # 5. Something fun
