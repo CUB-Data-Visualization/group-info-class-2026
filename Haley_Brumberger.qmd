@@ -5,7 +5,7 @@ embed-resources: true
 editor: source
 ---
 
-# Name: ? (preferred pronouns)
+# Name: Haley (she/her)
 
 > Add your name and preferred pronouns in the heading above.
 
@@ -38,10 +38,10 @@ editor: source
 
 > Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
 
-@eq-fav is the mass-energy equivalence equation ($E = m c^2$), one of my favorite equations in the whole wide world.
+@eq-fav is the isotope mass balance equation [$\Sigma (\delta_i \cdot m_i) = \delta_a \cdot m_a + \delta_b \cdot m_b + \delta_c \cdot m_c...$], one of my favorite equations in the whole wide world.
 
 $$
-\Sigma \delta_i \cdot m_i 
+\Sigma (\delta_i \cdot m_i) = \delta_a \cdot m_a + \delta_b \cdot m_b + \delta_c \cdot m_c...
 $${#eq-fav}
 
 {{< pagebreak >}}
@@ -54,10 +54,10 @@ $${#eq-fav}
 
 ```{mermaid}
 %%| label: fig-chart
-%%| fig-cap: Version control flowchart to figure out whether you need Git.
+%%| fig-cap: Decision flowchart to figure out whether you should eat the chocolate bar.
 graph LR
-    A{Do you need <br> version control?} -->|No| B(Yes you do)
-    A --> |Yes| C[Install Git]
+    A{Should I eat this chocolate bar} -->|No| B(Yes you should)
+    A --> |Yes| C[Eat the chocolate!]
     B --> C
 ```
 
