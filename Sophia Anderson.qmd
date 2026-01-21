@@ -5,17 +5,11 @@ embed-resources: true
 editor: source
 ---
 
-# Name: Douglas
-
-> Sophia Anderson
+# Name: Sophia Anderson She/Her/Hers
 
 # 1. R, intermediate
 
-> What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
-
--   Language1 (beginner/intermediate/advanced/expert)
-
--   Language2 (beginner/intermediate/advanced/expert)
+-   R, beginner
 
 ::: callout-note
 ## Levels
@@ -28,39 +22,28 @@ editor: source
 
 # 2. Diversify data visualization tools, acclimate to data infrastructure, and improve workflow and reproducibility. 
 
-> List three goals you would like to accomplish through this class. This can be anything from things you'd like to know, skills you'd like to learn or improve, concepts you'd like to understand or apply, etc.
+1.  Confidently produce figures in R
 
-1.  
+2.  Beccome more comfortable with coding in general
 
-2.  
-
-3.  
+3.  Apply problem-solving skills I use in other areas of my field to coding
 
 # 3. Favorite equation
-
-> Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
-
-@eq-fav is the mass-energy equivalence equation ($E = m c^2$), one of my favorite equations in the whole wide world.
-
 $$
-E = m \cdot c^2
+E = a^2+b^2=c^2
 $${#eq-fav}
 
 {{< pagebreak >}}
 
 # 4. Favorite flow chart
 
-> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`. 
-
-@fig-chart shows my favorite flow chart.
-
 ```{mermaid}
 %%| label: fig-chart
-%%| fig-cap: Version control flowchart to figure out whether you need Git.
-graph LR
-    A{Do you need <br> version control?} -->|No| B(Yes you do)
-    A --> |Yes| C[Install Git]
-    B --> C
+%%| fig-cap: Version control flowchart to figure out of someone is super cool and likes bugs. 
+graph LR 
+        A{{Do you want to hear a fun fact about bugs?}}  -->|No| B((That's too bad))
+        A --> |Yes| C[/Termite queens can lay around 40,000 eggs a day/]
+        B --> C
 ```
 
 ::: callout-tip
@@ -74,9 +57,9 @@ Click on the "Preview" button above the code block to render your chart or use t
 @fig-fun shows how much fun I'm having.
 
 ```{r}
-#| label: fig-fun
-#| fig-cap: My kids love colorful dinosaurs.
+#| label: Museums and Trains
+#| fig-cap: I enjoy visiting museums and research collections. This is me at the train museum located in Duluth, Minnesota.
 #| echo: FALSE
 #| out-width: 100%
-knitr::include_graphics("images/example.png")
+knitr::include_graphics("Duluth_Train_Depot.jpg")
 ```
