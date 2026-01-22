@@ -5,7 +5,7 @@ embed-resources: true
 editor: source
 ---
 
-# Name: ? (preferred pronouns)
+# Name: Aggela Polymenis (she/her)
 
 > Add your name and preferred pronouns in the heading above.
 
@@ -13,9 +13,9 @@ editor: source
 
 > What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
 
--   Language1 (beginner/intermediate/advanced/expert)
+-   R: beginner 
 
--   Language2 (beginner/intermediate/advanced/expert)
+-   Python: used to be intermediate, but I'm so rusty that I'm definitely back to beginner level now
 
 ::: callout-note
 ## Levels
@@ -30,20 +30,20 @@ editor: source
 
 > List three goals you would like to accomplish through this class. This can be anything from things you'd like to know, skills you'd like to learn or improve, concepts you'd like to understand or apply, etc.
 
-1.  
+1.  Become more comfortable with using R
 
-2.  
+2.  Learn how to produce publication quality figures
 
-3.  
+3.  Continue to familiarize myself with LaTeX and markdown syntax
 
 # 3. Favorite equation
 
 > Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
 
-@eq-fav is the mass-energy equivalence equation ($E = m c^2$), one of my favorite equations in the whole wide world.
+@eq-fav is the Planck function, and is an equation I fondly remember from my time as an undergrad in Astrophysics. This function describes the relationship between intensity, frequency, and temperature of blackbody radiation. 
 
 $$
-E = m \cdot c^2
+B_\nu = \frac{2h\nu^3/c^2}{e^\frac{h\nu}{kT}-1}
 $${#eq-fav}
 
 {{< pagebreak >}}
