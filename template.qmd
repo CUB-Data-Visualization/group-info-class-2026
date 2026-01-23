@@ -1,11 +1,11 @@
-douglas.qmd---
+---
 title: GitHub & Markdown Exercise
 format: html
 embed-resources: true
 editor: source
 ---
 
-# Name: Douglas
+# Name: 
 
 > Add your name and preferred pronouns in the heading above.
 
