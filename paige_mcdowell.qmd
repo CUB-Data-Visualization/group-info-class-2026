@@ -32,20 +32,20 @@ editor: source
 
 > List three goals you would like to accomplish through this class. This can be anything from things you'd like to know, skills you'd like to learn or improve, concepts you'd like to understand or apply, etc.
 
-1.  
+1.  Becoming comfortable with programming languages again
 
-2.  
+2.  Learning how to represent data is an efficent manner
 
-3.  
+3.  Understanding the connection between R, Positron, and GitHub
 
 # 3. Favorite equation
 
 > Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
 
-@eq-fav is the mass-energy equivalence equation ($E = m c^2$), one of my favorite equations in the whole wide world.
+@eq-fav is the rate of decay equation ($-\frac{dN}{dt} = \lambda N$), one of my favorite equations in the whole wide world.
 
 $$
-E = m \cdot c^2
+-\frac{dN}{dt} = \lambda N
 $${#eq-fav}
 
 {{< pagebreak >}}
