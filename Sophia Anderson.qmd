@@ -1,4 +1,4 @@
-Sophia Anderson.qmd---
+---
 title: GitHub & Markdown Exercise
 format: html
 embed-resources: true
