@@ -58,9 +58,9 @@ $${#eq-fav}
 
 ```{mermaid}
 %%| label: fig-chart
-%%| fig-cap: Version control flowchart to figure out whether you need Git.
+%%| fig-cap: Work planning flowchart to increase productivity.
 graph TB
-    A{Do you need <br> a coffee?} -->|No| B(Do you have work to do?)
+    A{Do you need <br> coffee?} -->|No| B(Do you have work to do?)
     A --> |Yes| C((get a coffee))
     B --> |No| D[yes you do]
     B --> |Yes| C
