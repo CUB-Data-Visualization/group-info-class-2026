@@ -59,10 +59,10 @@ $${#eq-fav}
 ```{mermaid}
 %%| label: fig-chart
 %%| fig-cap: Work planning flowchart to increase productivity.
-graph LR
+graph TB
     A{Do you need <br> coffee?} -->|No| B(Do you have work to do?)
-    A --> |Yes| C((get a coffee))
-    B --> |No| D[yes you do]
+    A --> |Yes| C((Get a coffee!))
+    B --> |No| D[Yes you do.]
     B --> |Yes| C
     D --> C
 ```
@@ -79,8 +79,8 @@ Click on the "Preview" button above the code block to render your chart or use t
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: My kids love colorful dinosaurs.
+#| fig-cap: Just before the last scramble of Mt. Bierstadt!
 #| echo: FALSE
-#| out-width: 100%
-knitr::include_graphics("images/example.png")
+#| out-width: 75%
+knitr::include_graphics("images/paige.png")
 ```
