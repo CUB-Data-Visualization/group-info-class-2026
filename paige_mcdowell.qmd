@@ -13,11 +13,11 @@ editor: source
 
 > What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
 
--  Python (beginner)
+-  Python (beginner) - learning this right now!
 
--  C++ (beginner)
+-  C++ (intermediate) - learned in high school, haven't use it much since then
 
-- Javascript (beginner)
+- Javascript (beginner) - also learned in high school but to a lesser extent & haven't used it much either
 
 ::: callout-note
 ## Levels
