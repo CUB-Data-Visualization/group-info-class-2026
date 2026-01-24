@@ -59,10 +59,12 @@ $${#eq-fav}
 ```{mermaid}
 %%| label: fig-chart
 %%| fig-cap: Version control flowchart to figure out whether you need Git.
-graph LR
-    A{Do you need <br> version control?} -->|No| B(Yes you do)
-    A --> |Yes| C[Install Git]
-    B --> C
+graph TB
+    A{Do you need <br> a coffee?} -->|No| B(Do you have work to do?)
+    A --> |Yes| C((get a coffee))
+    B --> |No| D[yes you do]
+    B --> |Yes| C
+    D --> C
 ```
 
 ::: callout-tip
