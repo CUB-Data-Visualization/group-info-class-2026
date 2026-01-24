@@ -59,7 +59,7 @@ $${#eq-fav}
 ```{mermaid}
 %%| label: fig-chart
 %%| fig-cap: Work planning flowchart to increase productivity.
-graph TB
+graph LR
     A{Do you need <br> coffee?} -->|No| B(Do you have work to do?)
     A --> |Yes| C((get a coffee))
     B --> |No| D[yes you do]
