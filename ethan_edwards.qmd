@@ -31,7 +31,7 @@ $${#eq-fav}
 
 {{< pagebreak >}}
 
-# 4. Favorite flow chart
+# 4. Flow Chart Practice
 
 > Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`. 
 
@@ -39,11 +39,13 @@ $${#eq-fav}
 
 ```{mermaid}
 %%| label: fig-chart
-%%| fig-cap: Version control flowchart to figure out whether you need Git.
+%%| fig-cap: Chart to see if you need water today.
 graph LR
-    A{Do you need <br> version control?} -->|No| B(Yes you do)
-    A --> |Yes| C[Install Git]
-    B --> C
+    A{Are you dehydrated?} -->|No| B(Are you sure?)
+    A --> |Yes| C[Drink Water]
+    B --> |No| C[Drink Water]
+    B --> |Yes| D(You need water anyways)
+    D --> C
 ```
 
 ::: callout-tip
