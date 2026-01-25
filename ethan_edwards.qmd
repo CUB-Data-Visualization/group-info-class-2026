@@ -7,22 +7,11 @@ editor: source
 
 # Name: Ethan Edwards 
 
-# 1. R, intermediate
+# 1. Coding Experience
 
-> What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
+-   MATLAB (intermediate-advanced)
 
--   Language1 (beginner/intermediate/advanced/expert)
-
--   Language2 (beginner/intermediate/advanced/expert)
-
-::: callout-note
-## Levels
-
--   beginner = know my way around the language enough to write some basic code
--   intermediate = know a few tricks and can usually figure out how to solve a problem using language help/online resources
--   advanced = can write code fluently without needing to stop for help and am generally aware of the language's best practices
--   expert = understand how the language is structured at a fundamental level and have a very intuitive understanding for efficiently solving any problem I encounter
-:::
+-   C (intermediate)
 
 # 2. Diversify data visualization tools, acclimate to data infrastructure, and improve workflow and reproducibility. 
 
