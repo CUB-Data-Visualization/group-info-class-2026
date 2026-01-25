@@ -81,7 +81,7 @@ Click on the "Preview" button above the code block to render your chart or use t
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: Grown man in pants brighter than the sun collecting water from a niskin bottle.
+#| fig-cap: Grown man in pants brighter than the sun collecting water from a niskin bottle of a CTD.
 #| echo: FALSE
 #| out-width: 100%
 knitr::include_graphics("images/Fieldwork_sampling.png")
