@@ -33,10 +33,6 @@ $${#eq-fav}
 
 # 4. Flow Chart Practice
 
-> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`. 
-
-@fig-chart shows my favorite flow chart.
-
 ```{mermaid}
 %%| label: fig-chart
 %%| fig-cap: Chart to see if you need water today.
@@ -48,20 +44,14 @@ graph LR
     D --> C
 ```
 
-::: callout-tip
-Click on the "Preview" button above the code block to render your chart or use the [Mermaid Live Editor](https://mermaid.live/edit) if you want to see the output immediately.
-:::
+# 5. Hiking a Mountain :)
 
-# 5. Something fun
-
-> Add a picture of yourself doing something you enjoy outside school (hiking, cooking, playing music, reading, etc) to the `images` folder and link to it here with a descriptive caption by changing the `fix-cap` below. Make sure that images are not too big and in **jpeg/jpg** or **png** format. A width of 600 to maximally 1200 pixels is typically plenty large (i.e. less than **\~2Mb**). You can scale your image to these dimensions using any photo editing software. For example, a convenient free online tool for scaling images is available at <http://www.simpleimageresizer.com/>. Lastly, the file names are case-sensitive! So `example.PNG` (upper-case PNG) is not the same as `example.png` (lower-case png), make sure that you have the filename correctly.
-
-@fig-fun shows how much fun I'm having.
+@fig-fun looks snowy but moving around keeps ya pretty warm
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: My kids love colorful dinosaurs.
+#| fig-cap: Me in front of Mt. Bierstadt.
 #| echo: FALSE
 #| out-width: 100%
-knitr::include_graphics("images/example.png")
+knitr::include_graphics("images/Mtn_Hike.jpeg")
 ```
