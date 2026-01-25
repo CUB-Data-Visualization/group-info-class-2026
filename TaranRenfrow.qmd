@@ -5,7 +5,7 @@ embed-resources: true
 editor: source
 ---
 
-# Name: ? (preferred pronouns)
+# Name: Taran Renfrow (he/him)
 
 > Add your name and preferred pronouns in the heading above.
 
