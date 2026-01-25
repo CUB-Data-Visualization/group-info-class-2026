@@ -34,8 +34,6 @@ editor: source
 
 # 3. Favorite equation
 
-> Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
-
 @eq-fav is the Boltzmann equation ($S = k_{B}\ln \Omega$), which describes Entropy ($S$) of a system with ($\Omega$, @eq-W) possible configurations, or microstates, of a system.
 
 $$
@@ -49,8 +47,6 @@ $${#eq-W}
 {{< pagebreak >}}
 
 # 4. Favorite flow chart
-
-> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`. 
 
 @fig-chart shows a funky and vibrant flow chart.
 
@@ -80,14 +76,13 @@ Click on the "Preview" button above the code block to render your chart or use t
 
 # 5. Something fun
 
-> Add a picture of yourself doing something you enjoy outside school (hiking, cooking, playing music, reading, etc) to the `images` folder and link to it here with a descriptive caption by changing the `fix-cap` below. Make sure that images are not too big and in **jpeg/jpg** or **png** format. A width of 600 to maximally 1200 pixels is typically plenty large (i.e. less than **\~2Mb**). You can scale your image to these dimensions using any photo editing software. For example, a convenient free online tool for scaling images is available at <http://www.simpleimageresizer.com/>. Lastly, the file names are case-sensitive! So `example.PNG` (upper-case PNG) is not the same as `example.png` (lower-case png), make sure that you have the filename correctly.
 
-@fig-fun shows how much fun I'm having.
+@fig-fun shows me sampling water on a research boat.
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: My kids love colorful dinosaurs.
+#| fig-cap: Grown man in pants brighter than the sun collecting water from a niskin bottle.
 #| echo: FALSE
 #| out-width: 100%
-knitr::include_graphics("images/example.png")
+knitr::include_graphics("images/Fieldwork_sampling.png")
 ```
