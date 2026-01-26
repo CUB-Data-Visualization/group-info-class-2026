@@ -46,13 +46,12 @@ $$
 
 # 4. Favorite flow chart
 
-> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`.
 
 @fig-chart shows my favorite flow chart.
 
 ```{mermaid}
 %%| label: fig-chart
-%%| fig-cap: Version control flowchart to figure out whether you need Git.
+%%| fig-cap: Flowchart to figure out whether you need to drink water.
 graph LR
     A{Did you drink <br> water today?} -->|No| C(Drink water)
     A --> |Yes| B[Diet Coke <br>  doesn't count]
@@ -65,14 +64,13 @@ Click on the "Preview" button above the code block to render your chart or use t
 
 # 5. Something fun
 
-> Add a picture of yourself doing something you enjoy outside school (hiking, cooking, playing music, reading, etc) to the `images` folder and link to it here with a descriptive caption by changing the `fix-cap` below. Make sure that images are not too big and in **jpeg/jpg** or **png** format. A width of 600 to maximally 1200 pixels is typically plenty large (i.e. less than **\~2Mb**). You can scale your image to these dimensions using any photo editing software. For example, a convenient free online tool for scaling images is available at <http://www.simpleimageresizer.com/>. Lastly, the file names are case-sensitive! So `example.PNG` (upper-case PNG) is not the same as `example.png` (lower-case png), make sure that you have the filename correctly.
 
 @fig-fun shows how much fun I'm having.
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: My kids love colorful dinosaurs.
+#| fig-cap: I left my heart in San Francisco.
 #| echo: FALSE
 #| out-width: 100%
-knitr::include_graphics("images/example.png")
+knitr::include_graphics("images/me_SF.jpg")
 ```
