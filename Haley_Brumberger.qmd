@@ -1,0 +1,56 @@
+---
+title: GitHub & Markdown Exercise
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: Haley Brumberger (she/her)
+
+# 1. Programming Experience
+
+-   R (Rstudio) (beginner; have used it for data processing in CUBES-SIL but not really able to synthesize my own code proficiently. I do have some plots I made in R for my data for our grant, but that was with help from Katie and ChatGPT)
+
+# 2. Course Goals
+
+1.  Primarily, I'd like to develop my R abilities so that I can make publication- and communication-quality figures and plots. 
+
+2.  I would also like to become more proficient in data management in R; I used Excel during my Master's for both data management and plotting so I'm not super comfortable making/adjusting dataframes/tables in R.
+
+3.  I'd like to have a more intuitive understanding of the structure of the R programming language so that when I troubleshoot, I know how/what to find how to fix. 
+
+# 3. Favorite equation
+
+@eq-fav is the isotope mass balance equation [$\Sigma (\delta_i \cdot m_i) = \delta_a \cdot m_a + \delta_b \cdot m_b + \delta_c \cdot m_c...$], one of my favorite equations in the whole wide world.
+
+$$
+\Sigma (\delta_i \cdot m_i) = \delta_a \cdot m_a + \delta_b \cdot m_b + \delta_c \cdot m_c...
+$${#eq-fav}
+
+{{< pagebreak >}}
+
+# 4. Favorite flow chart
+
+@fig-chart shows my favorite flow chart.
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: Decision flowchart to figure out whether you should eat the chocolate bar.
+graph LR
+    A{Should I eat this chocolate bar} -->|No| B(Yes you should)
+    A --> |Yes| C[Eat the chocolate!]
+    B --> C
+```
+
+
+# 5. Something fun
+
+@fig-fun is me after a hockey game--I play in a league on Monday nights.
+
+```{r}
+#| label: fig-fun
+#| fig-cap: Thumbs up for hockey! My team name is "The Icemen Cometh," a reference from It's Always Sunny in Philadelphia. I designed our jerseys!
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("images/Haley_hockey.jpeg")
+```
