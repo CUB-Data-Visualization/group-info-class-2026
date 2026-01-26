@@ -5,7 +5,7 @@ embed-resources: true
 editor: source
 ---
 
-# Name: Nadia Alhassani (he/her/hers)
+# Name: Nadia Alhassani (she/her/hers)
 
 
 # 1. Programming Experience
