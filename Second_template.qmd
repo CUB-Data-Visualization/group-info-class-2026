@@ -1,0 +1,71 @@
+---
+title: GitHub & Markdown Exercise
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: Kalpana Murugan (she/her)
+
+# 1. Programming Experience
+-   Jupyter Notebook/Python (intermediate)
+-   R (basic)
+
+::: callout-note
+## Levels
+
+-   beginner = know my way around the language enough to write some basic code
+-   intermediate = know a few tricks and can usually figure out how to solve a problem using language help/online resources
+-   advanced = can write code fluently without needing to stop for help and am generally aware of the language's best practices
+-   expert = understand how the language is structured at a fundamental level and have a very intuitive understanding for efficiently solving any problem I encounter
+:::
+
+# 2. Course Goals
+
+1.  Learn how to navigate through Github
+
+2.  Generate figures for my own thesis (if applicable)
+
+3.  Be more proficient in R
+
+# 3. Favorite equation
+
+One of my favorite equation is the half life equation for radioactive elements. 
+
+$$
+
+T_{1/2} = \frac{ln 2}{\lambda}
+
+$${#eq-fav}
+
+{{< pagebreak >}}
+
+# 4. Favorite flow chart
+
+@fig-chart shows my favorite flow chart.
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: flowchart to figure out whether you should stay or leave a party.
+graph TB
+    A[Awkward?] -->|Yes| B(Free Food?)
+    A --> |No| C[Stay]
+    B --> |Yes| C 
+    B --> |No| D[Leave]
+```
+
+::: callout-tip
+Click on the "Preview" button above the code block to render your chart or use the [Mermaid Live Editor](https://mermaid.live/edit) if you want to see the output immediately.
+:::
+
+# 5. Something fun
+
+@fig-fun shows me outdoors on backpacking trip!
+
+```{r}
+#| label: fig-fun
+#| fig-cap: Backpacking is fun!
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("images/IMG_2521.jpeg")
+```
