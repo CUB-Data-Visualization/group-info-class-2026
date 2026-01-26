@@ -34,7 +34,7 @@ editor: source
 
 > Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
 
-@eq-fav is the mass-energy equivalence equation ($E = m c^2$), one of my favorite equations in the whole wide world.
+@eq-fav, the quadratic formula, is one of my favorite equations in the whole wide world because of its fun jingle.
 
 $$
 x = \frac{-b\pm\sqrt{b^2-4ac}}{2a}
@@ -42,19 +42,19 @@ $${#eq-fav}
 
 {{< pagebreak >}}
 
-# 4. Favorite flow chart
-
-> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`. 
+# 4. Favorite flow chart 
 
 @fig-chart shows my favorite flow chart.
 
 ```{mermaid}
 %%| label: fig-chart
-%%| fig-cap: Version control flowchart to figure out whether you need Git.
-graph LR
-    A{Do you need <br> version control?} -->|No| B(Yes you do)
-    A --> |Yes| C[Install Git]
-    B --> C
+%%| fig-cap: Cat lovers flowchart to figure out whether you should adopt a cat.
+graph 
+    A{Do you own <br> a cat?} -->|No| B(Why not?)
+    A --> |Yes| C[Adopt <br> another cat!]
+    B --> |Allergies| D[Get a <br> Sphynx!]
+    B --> |I don't <br> like cats| E[Give them <br> a chance!]
+
 ```
 
 ::: callout-tip
@@ -63,14 +63,12 @@ Click on the "Preview" button above the code block to render your chart or use t
 
 # 5. Something fun
 
-> Add a picture of yourself doing something you enjoy outside school (hiking, cooking, playing music, reading, etc) to the `images` folder and link to it here with a descriptive caption by changing the `fix-cap` below. Make sure that images are not too big and in **jpeg/jpg** or **png** format. A width of 600 to maximally 1200 pixels is typically plenty large (i.e. less than **\~2Mb**). You can scale your image to these dimensions using any photo editing software. For example, a convenient free online tool for scaling images is available at <http://www.simpleimageresizer.com/>. Lastly, the file names are case-sensitive! So `example.PNG` (upper-case PNG) is not the same as `example.png` (lower-case png), make sure that you have the filename correctly.
-
 @fig-fun shows how much fun I'm having.
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: My kids love colorful dinosaurs.
+#| fig-cap: Me and my friends' dog at the top of my favorite hike in Boulder.
 #| echo: FALSE
 #| out-width: 100%
-knitr::include_graphics("images/example.png")
+knitr::include_graphics("images/Me_hiking.png")
 ```
