@@ -1,0 +1,70 @@
+---
+title: GitHub & Markdown Exercise
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: Taran Renfrow (he/him)
+
+
+# 1. Programming Experience
+
+-   Python. Beginner. 
+
+::: callout-note
+## Levels
+
+-   beginner = know my way around the language enough to write some basic code
+-   intermediate = know a few tricks and can usually figure out how to solve a problem using language help/online resources
+-   advanced = can write code fluently without needing to stop for help and am generally aware of the language's best practices
+-   expert = understand how the language is structured at a fundamental level and have a very intuitive understanding for efficiently solving any problem I encounter
+:::
+
+# 2. Course Goals
+
+1.  I would like to become more familiar with coding as a whole, so that when I am tasked with something, I can form a competent road map to get me to the solution.
+
+2.  I'd like to learn how to better customize my data presentations so that they're exactly how I want them.
+
+3.  I want to expand my coding languages, since it seems like each language has different case-uses.  
+
+# 3. Favorite equation
+
+One of my favorite equations is the p-wave velocity equation: $V_p = \sqrt{\frac{K+\frac{4}{3}\mu}{\rho}}$. See @eq-fav
+
+$$
+V_p = \sqrt{\frac{K+\frac{4}{3}\mu}{\rho}}
+$$ {#eq-fav}
+
+{{< pagebreak >}}
+
+# 4. A fatalistic flow chart
+
+@fig-chart shows my favorite flow chart.
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: flow chart to determine what to eat.
+graph TD
+    A{Are you hungry?} -->|No| B(Wait a little while)
+    A --> |Yes| C[Find some food]
+    B --> C
+    C --> A
+```
+
+::: callout-tip
+Click on the "Preview" button above the code block to render your chart or use the [Mermaid Live Editor](https://mermaid.live/edit) if you want to see the output immediately.
+:::
+
+# 5. Something fun
+
+@fig-fun demonstrates that I like climbing.
+
+```{r}
+#| label: fig-fun
+#| fig-cap: I like climbing outside.
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("images/IMG_6992.jpg")
+```
