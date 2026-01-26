@@ -5,17 +5,14 @@ embed-resources: true
 editor: source
 ---
 
-# Name: ? (preferred pronouns)
+# Name: Anya Keena (She/her)
 
-> Add your name and preferred pronouns in the heading above.
 
 # 1. Programming Experience
 
-> What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
+-   Python (beginnert)
 
--   Language1 (beginner/intermediate/advanced/expert)
-
--   Language2 (beginner/intermediate/advanced/expert)
+-   Linux? (beginner)
 
 ::: callout-note
 ## Levels
@@ -28,38 +25,34 @@ editor: source
 
 # 2. Course Goals
 
-> List three goals you would like to accomplish through this class. This can be anything from things you'd like to know, skills you'd like to learn or improve, concepts you'd like to understand or apply, etc.
+1.  I use excel for every dataset I work with which is limiting and annoying. I want to be able to work with datasets within a code language where I can have more control of how they are represented. 
 
-1.  
+2.  I got my mass spectromemter data in R code and Ashley went through it with me so I could understand what I was looking at but I would like to know more about what went into that.
 
-2.  
-
-3.  
+3.  I have a future in geobiology/geochemistry research and I know coding is fudemental for how data is intrepted, manipulated, modeled, and exported in figures and I want to be able to access this world. 
 
 # 3. Favorite equation
 
-> Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
-
-@eq-fav is the mass-energy equivalence equation ($E = m c^2$), one of my favorite equations in the whole wide world.
-
+@eq-fav is Stefan-Boltzmann's Law  ($P = e \sigma A T^4$), which is power = emissivity *  Stafan-Boltzmann's constant * temperature^4 * surface area and is used to calculate the amount of power that a surface radiates. 
 $$
-E = m \cdot c^2
+P = e \sigma A T^4
 $${#eq-fav}
+$$
+\sigma = 5.67 * 10^{-18} J/s m^2 K^4
+$$
 
 {{< pagebreak >}}
 
 # 4. Favorite flow chart
 
-> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`. 
-
-@fig-chart shows my favorite flow chart.
+@fig-chart shows what my ideal work flow chart would look like. Behind the desk at the student climbing gym I work at in the student rec center we have a flow chart that shows what empoloyees should be doing. My boss loves to come up to us when we are socializing and ask where chatting is on the flow chart, so if it was up to me this is what the flow chart would look like. 
 
 ```{mermaid}
 %%| label: fig-chart
-%%| fig-cap: Version control flowchart to figure out whether you need Git.
-graph LR
-    A{Do you need <br> version control?} -->|No| B(Yes you do)
-    A --> |Yes| C[Install Git]
+%%| fig-cap: flowchart to help employees figure out what they should be doing at the climbing gym.
+graph TB
+    A((Is there a patron <br> at the climbing gym desk?)) -->|Yes| B(Help them out.)
+    A --> |No| C(Talk to your coworker.)
     B --> C
 ```
 
@@ -69,14 +62,12 @@ Click on the "Preview" button above the code block to render your chart or use t
 
 # 5. Something fun
 
-> Add a picture of yourself doing something you enjoy outside school (hiking, cooking, playing music, reading, etc) to the `images` folder and link to it here with a descriptive caption by changing the `fix-cap` below. Make sure that images are not too big and in **jpeg/jpg** or **png** format. A width of 600 to maximally 1200 pixels is typically plenty large (i.e. less than **\~2Mb**). You can scale your image to these dimensions using any photo editing software. For example, a convenient free online tool for scaling images is available at <http://www.simpleimageresizer.com/>. Lastly, the file names are case-sensitive! So `example.PNG` (upper-case PNG) is not the same as `example.png` (lower-case png), make sure that you have the filename correctly.
-
 @fig-fun shows how much fun I'm having.
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: My kids love colorful dinosaurs.
+#| fig-cap: Me doing my favorite winter sport.
 #| echo: FALSE
 #| out-width: 100%
-knitr::include_graphics("images/example.png")
+knitr::include_graphics("images/anyafun1.jpg")
 ```
