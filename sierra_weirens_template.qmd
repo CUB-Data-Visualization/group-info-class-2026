@@ -9,23 +9,23 @@ editor: source
 
 # 1. Programming Experience
 
--   R (beginner) 
+-   R (beginner)
 
 # 2. Course Goals
 
-1.  Learn how to use GitHub proficiency. 
+1.  Learn how to use GitHub proficiency.
 
 2.  Create publication quality figures.
 
-3.  Gain compentency in R and coding. 
+3.  Gain compentency in R and coding.
 
 # 3. Favorite equation
 
-@eq-fav is the pythagorean theorem ($a^2 + b^2 = c^2$) which is one of my favorite equations. 
+@eq-fav is the pythagorean theorem ($a^2 + b^2 = c^2$) which is one of my favorite equations.
 
 $$
 a^2 + b^2 = c^2
-$${#eq-fav}
+$$ {#eq-fav}
 
 {{< pagebreak >}}
 
@@ -35,8 +35,8 @@ $${#eq-fav}
 
 ```{mermaid}
 %%| label: fig-chart
-%%| fig-cap: Simple flowchart to figure out if precipitation is more likely to be snow or rain.
-graph LR
+%%| fig-cap: Simple flowchart to figure out if precipitation is more likely snow or rain.
+graph TB
     A[Is the air temperature less than 0 degrees C?] -->|Yes| B(Precipitation is snow)
     A --> |No| C(Precipitation is rain)
 ```
