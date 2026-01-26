@@ -57,13 +57,20 @@ graph LR
 
 # 5. Something fun
 
-@fig-fun shows me taking a photo, and the photo I took:
+@fig-fun shows me taking a photo, and @fig-fun2 the photo I took:
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: Me taking a photo & the photo of the secretary bird I took
+#| fig-cap: Me taking a photo
 #| echo: FALSE
 #| out-width: 100%
 knitr::include_graphics("images/WildlifePhotography.JPG")
+```
+
+```{r}
+#| label: fig-fun2
+#| fig-cap: the photo of the secretary bird I took
+#| echo: FALSE
+#| out-width: 100%
 knitr::include_graphics("images/SecretaryBird.jpg")
 ```
