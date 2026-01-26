@@ -8,9 +8,6 @@ editor: source
 # Name: Kalpana Murugan (she/her)
 
 # 1. Programming Experience
-
-> What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
-
 -   Jupyter Notebook/Python (intermediate)
 -   R (basic)
 
@@ -33,31 +30,28 @@ editor: source
 
 # 3. Favorite equation
 
-My favorite
-
-> Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
-
-@eq-fav is the mass-energy equivalence equation ($E = m c^2$), one of my favorite equations in the whole wide world.
+One of my favorite equation is the half life equation for radioactive elements. 
 
 $$
-E = m \cdot c^2
+
+T_{1/2} = \frac{ln 2}{\lambda}
+
 $${#eq-fav}
 
 {{< pagebreak >}}
 
 # 4. Favorite flow chart
 
-> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`. 
-
 @fig-chart shows my favorite flow chart.
 
 ```{mermaid}
 %%| label: fig-chart
-%%| fig-cap: Version control flowchart to figure out whether you need Git.
-graph LR
-    A{Do you need <br> version control?} -->|No| B(Yes you do)
-    A --> |Yes| C[Install Git]
-    B --> C
+%%| fig-cap: flowchart to figure out whether you should stay or leave a party.
+graph TB
+    A[Awkward?] -->|Yes| B(Free Food?)
+    A --> |No| C[Stay]
+    B --> |Yes| C 
+    B --> |No| D[Leave]
 ```
 
 ::: callout-tip
@@ -66,14 +60,12 @@ Click on the "Preview" button above the code block to render your chart or use t
 
 # 5. Something fun
 
-> Add a picture of yourself doing something you enjoy outside school (hiking, cooking, playing music, reading, etc) to the `images` folder and link to it here with a descriptive caption by changing the `fix-cap` below. Make sure that images are not too big and in **jpeg/jpg** or **png** format. A width of 600 to maximally 1200 pixels is typically plenty large (i.e. less than **\~2Mb**). You can scale your image to these dimensions using any photo editing software. For example, a convenient free online tool for scaling images is available at <http://www.simpleimageresizer.com/>. Lastly, the file names are case-sensitive! So `example.PNG` (upper-case PNG) is not the same as `example.png` (lower-case png), make sure that you have the filename correctly.
-
 @fig-fun shows how much fun I'm having.
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: My kids love colorful dinosaurs.
+#| fig-cap: Backpacking is fun!
 #| echo: FALSE
 #| out-width: 100%
-knitr::include_graphics("images/example.png")
+knitr::include_graphics("images/IMG_2521.jpeg")
 ```
