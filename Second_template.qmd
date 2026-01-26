@@ -33,9 +33,7 @@ editor: source
 One of my favorite equation is the half life equation for radioactive elements. 
 
 $$
-
 T_{1/2} = \frac{\ln 2}{\lambda}
-
 $${#eq-fav}
 
 {{< pagebreak >}}
