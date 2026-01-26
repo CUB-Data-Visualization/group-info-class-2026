@@ -1,0 +1,57 @@
+---
+title: GitHub & Markdown Exercise
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: Ethan Edwards 
+
+# 1. Coding Experience
+
+-   MATLAB (intermediate-advanced)
+
+-   C (intermediate)
+
+# 2. Semester Goals 
+
+1.  Improve best coding practices so code can run flawlessly and also be referenced by a future engineer/scientist in the future.
+
+2.  Expand software programming knowledge base as to understand what the computer is actually doing with each command. Different coding languages have different syntax but knowing how the program actually runs code will allow you to learn any language. 
+
+3.  Learn more about data visualization and the workflow. I am not the strongest programmer in the world and it will be nice to learn how to organize my thoughts and changes.
+
+# 3. Favorite Equation
+
+@eq-fav is the inductor voltage equation which states that the voltage across an inductor is proportional to the rate of change of the current passing through it.
+
+$$
+V_{\rm L} = L \cdot \frac{dI_{\rm L}}{dt}
+$${#eq-fav}
+
+{{< pagebreak >}}
+
+# 4. Flow Chart Practice
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: Chart to see if you need water today.
+graph LR
+    A{Are you dehydrated?} -->|No| B(Are you sure?)
+    A --> |Yes| C[Drink Water]
+    B --> |No| C[Drink Water]
+    B --> |Yes| D(You need water anyways)
+    D --> C
+```
+
+# 5. Hiking a Mountain :)
+
+@fig-fun looks snowy but moving around keeps ya pretty warm
+
+```{r}
+#| label: fig-fun
+#| fig-cap: Me in front of Mt. Bierstadt.
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("images/Mtn_Hike.jpeg")
+```
