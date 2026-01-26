@@ -7,7 +7,7 @@ editor: source
 
 # Name: ? (preferred pronouns)
 
-> Add your name and preferred pronouns in the heading above.
+Caroline Thompson (She/her/hers) \> Add your name and preferred pronouns in the heading above.
 
 # 1. Programming Experience
 
@@ -44,13 +44,13 @@ editor: source
 
 $$
 E = m \cdot c^2
-$${#eq-fav}
+$$ {#eq-fav}
 
 {{< pagebreak >}}
 
 # 4. Favorite flow chart
 
-> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`. 
+> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`.
 
 @fig-chart shows my favorite flow chart.
 

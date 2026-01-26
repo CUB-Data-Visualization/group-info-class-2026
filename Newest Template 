@@ -1,0 +1,58 @@
+---
+title: GitHub & Markdown Exercise
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: ? (preferred pronouns)
+
+Caroline Thompson (She/Her/Hers)
+
+# 1. Programming Experience
+
+> What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
+
+R-Studio (Beginner) I used it for a stats class sophomore year, I have basic I would even say very little understanding of it.
+
+::: callout-note
+:::
+
+# 2. Course Goals
+
+> List three goals you would like to accomplish through this class. This can be anything from things you'd like to know, skills you'd like to learn or improve, concepts you'd like to understand or apply, etc.
+
+1.  Learn how to use these skills in environmental areas.
+
+2.  Learn basic code and not need to depend on ai
+
+3.  Challenge myself with something that is super uncomfortable for me.
+
+# 3. Favorite equation
+
+> Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
+
+$$
+{x=frac{-b \pm \squrt{b^2-4ac}}{2a}}
+$$
+
+# 4. Favorite flow chart
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: Version control flowchart to figure out whether you need a new lamo.
+graph LR
+    A{Does your lamp turn on} --> B(no) --> |Change the bulb| D(Does it turn on now?)  -->|No| E(get a new lamp) 
+    A --> |Yes| C[Awesome]
+    D --> |Yes| C[Awesome]
+```
+
+# 5. Something fun
+
+```{r}
+#| label: hiking
+#| fig-cap: me outside
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("IMG_0503_1_600x450 (1)")
+```
