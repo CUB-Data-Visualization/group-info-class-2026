@@ -45,8 +45,8 @@ $$
 @New-and-approved-optometrist-exam shows my best work yet.
 
 ```{mermaid}
-%%| label: New-and-approved-optometrist-exam
-%%| fig-cap: Deciding whether or not you need glasses.
+%%| label: "New-and-approved-optometrist-exam"
+%%| fig-cap: "Deciding whether or not you need glasses."
 graph LR
    A{Is this a diamond?} -->|No| B((You probably think this is a diamond too))
    B --> D[See Doctor]
