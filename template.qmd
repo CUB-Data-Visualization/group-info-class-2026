@@ -7,11 +7,7 @@ editor: source
 
 # Name: Bianca Artigas (she/her)
 
-> Add your name and preferred pronouns in the heading above.
-
 # 1. Programming Experience
-
-> What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
 
 -   Language1 (beginner/intermediate/advanced/expert) R (intermadiate high?)
 
@@ -28,8 +24,6 @@ editor: source
 
 # 2. Course Goals
 
-> List three goals you would like to accomplish through this class. This can be anything from things you'd like to know, skills you'd like to learn or improve, concepts you'd like to understand or apply, etc.
-
 1.  Writing code without online help
 
 2.  Data visualiziation other than my very specific use in aftershock forecast maps
@@ -37,8 +31,6 @@ editor: source
 3.  Fluency in source control and markdown files
 
 # 3. Favorite equation
-
-> Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
 
 @eq-fav is the mass-energy equivalence equation ($E = m c^2$), one of my favorite equations in the whole wide world.
 
@@ -62,8 +54,8 @@ $$
 %%| label: fig-chart
 %%| fig-cap: Version control flowchart to figure out whether you need Git.
 graph LR
-    A{Do you need <br> version control?} -->|No| B(Yes you do)
-    A --> |Yes| C[Install Git]
+    A{Did you drink <br> water today?} -->|No| C(Drink water)
+    A --> |Yes| B[Diet Coke <br>  doesn't count]
     B --> C
 ```
 
