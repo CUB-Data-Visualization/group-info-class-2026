@@ -60,7 +60,7 @@ Click on the "Preview" button above the code block to render your chart or use t
 
 # 5. Something fun
 
-@fig-fun shows me outdoors on backpacking trip!
+@fig-fun shows me outdoors on a backpacking trip!
 
 ```{r}
 #| label: fig-fun
