@@ -36,7 +36,7 @@ editor: source
 @eq-fav is the ratio of plant wax lipids for assessing if the input is largely derived from terrestrial (low Paq') or aquatic (high Paq') plants. This equation is special as it was a major part of my first publication and masters thesis.
 
 $$
-Paq'=(A_{21} + A_{23} + A_{25})/(A_{21} + A_{23} + A_{25} + A_{27} + A_{29} + A_{31})
+Paq'=\frac{A_{21} + A_{23} + A_{25}}{A_{21} + A_{23} + A_{25} + A_{27} + A_{29} + A_{31}}
 $${#eq-fav}
 
 {{< pagebreak >}}
