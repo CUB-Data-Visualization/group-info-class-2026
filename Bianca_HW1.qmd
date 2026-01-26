@@ -1,0 +1,76 @@
+---
+title: GitHub & Markdown Exercise
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: Bianca Artigas (she/her)
+
+# 1. Programming Experience
+
+-   Language1 (beginner/intermediate/advanced/expert) R (intermadiate high?)
+
+-   Language2 (beginner/intermediate/advanced/expert) Python (beginner)
+
+::: callout-note
+## Levels
+
+-   beginner = know my way around the language enough to write some basic code
+-   intermediate = know a few tricks and can usually figure out how to solve a problem using language help/online resources
+-   advanced = can write code fluently without needing to stop for help and am generally aware of the language's best practices
+-   expert = understand how the language is structured at a fundamental level and have a very intuitive understanding for efficiently solving any problem I encounter
+:::
+
+# 2. Course Goals
+
+1.  Writing code without online help
+
+2.  Data visualiziation other than my very specific use in aftershock forecast maps
+
+3.  Fluency in source control and markdown files
+
+# 3. Favorite equation
+
+@eq-fav is the mass-energy equivalence equation ($E = m c^2$), one of my favorite equations in the whole wide world.
+
+$$
+E = m \cdot c^2
+$$ {#eq-fav}
+
+{{< pagebreak >}}
+
+$$
+ W = \int_{x_1}^{x_2} \vec{F} \cdot \mathrm{d}\vec{r}
+$$
+
+# 4. Favorite flow chart
+
+
+@fig-chart shows my favorite flow chart.
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: Flowchart to figure out whether you need to drink water.
+graph LR
+    A{Did you drink <br> water today?} -->|No| C(Drink water)
+    A --> |Yes| B[Diet Coke <br>  doesn't count]
+    B --> C
+```
+
+::: callout-tip
+Click on the "Preview" button above the code block to render your chart or use the [Mermaid Live Editor](https://mermaid.live/edit) if you want to see the output immediately.
+:::
+
+# 5. Something fun
+
+
+@fig-fun shows how much fun I'm having.
+
+```{r}
+#| label: fig-fun
+#| fig-cap: I left my heart in San Francisco.
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("images/me_SF.jpg")
+```
