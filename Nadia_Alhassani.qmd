@@ -7,76 +7,63 @@ editor: source
 
 # Name: Nadia Alhassani (he/her/hers)
 
-> Add your name and preferred pronouns in the heading above.
 
 # 1. Programming Experience
 
-> What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
+-   Language1: R, intermediate (have taken ~4 classes utilizing R)
 
--   Language1 (beginner/intermediate/advanced/expert)
+-   Language2: C & Python: beginner (have only tried it a couple times in a previous class)
 
--   Language2 (beginner/intermediate/advanced/expert)
-
-::: callout-note
-## Levels
-
--   beginner = know my way around the language enough to write some basic code
--   intermediate = know a few tricks and can usually figure out how to solve a problem using language help/online resources
--   advanced = can write code fluently without needing to stop for help and am generally aware of the language's best practices
--   expert = understand how the language is structured at a fundamental level and have a very intuitive understanding for efficiently solving any problem I encounter
-:::
 
 # 2. Course Goals
 
-> List three goals you would like to accomplish through this class. This can be anything from things you'd like to know, skills you'd like to learn or improve, concepts you'd like to understand or apply, etc.
+1.  Get better with data tidying! I spend a lot of time on excel trying to tidy but I know there are better & faster ways with R.
 
-1.  
+2.  Get more comfortable writing in R. I don't want to stop to look up syntax & example code for every analysis/visualization I do.
 
-2.  
-
-3.  
+3.  Learn the skills to make publishable graphs! Feel comfortable with various styles, techniques, and packages for graphs.
 
 # 3. Favorite equation
 
-> Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it.
-
-@eq-fav is the mass-energy equivalence equation ($E = m c^2$), one of my favorite equations in the whole wide world.
+@eq-fav are the lotka-volterra equations, modeling prey (x)and predator (y) populations over time (t). $\alpha$ is the natural growth rate of prey in the absence of predators, $\beta$ is the predation rate coefficient, $\gamma$ is the natural death rate of predators in the absence of prey, and $\delta$ is the reproduction rate of predators per prey eaten 
 
 $$
-E = m \cdot c^2
+\begin{cases}
+\frac{dx}{dt} = \alpha x - \beta xy \\
+\frac{dy}{dt} = \delta xy - \gamma y
+\end{cases}
 $${#eq-fav}
 
 {{< pagebreak >}}
 
 # 4. Favorite flow chart
 
-> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`. 
-
-@fig-chart shows my favorite flow chart.
+@fig-chart shows a flow chart of whether you should get a bird feeder or not...
 
 ```{mermaid}
 %%| label: fig-chart
-%%| fig-cap: Version control flowchart to figure out whether you need Git.
+%%| fig-cap: flowchart to determine whether you need a bird beeder or not
 graph LR
-    A{Do you need <br> version control?} -->|No| B(Yes you do)
-    A --> |Yes| C[Install Git]
-    B --> C
+    A[Do you want<br>a bird feeder?] -->|Yes| B{Get a bird feeder}
+    A -->|No| C[Do you have<br>a cat?]
+    C -->|Yes| B
+    C -->|No| D[Do you want<br>happiness in your life?]
+    D -->|Yes| B
+    D -->|No| E[Too bad...]
+    E --> B
+
 ```
 
-::: callout-tip
-Click on the "Preview" button above the code block to render your chart or use the [Mermaid Live Editor](https://mermaid.live/edit) if you want to see the output immediately.
-:::
 
 # 5. Something fun
 
-> Add a picture of yourself doing something you enjoy outside school (hiking, cooking, playing music, reading, etc) to the `images` folder and link to it here with a descriptive caption by changing the `fix-cap` below. Make sure that images are not too big and in **jpeg/jpg** or **png** format. A width of 600 to maximally 1200 pixels is typically plenty large (i.e. less than **\~2Mb**). You can scale your image to these dimensions using any photo editing software. For example, a convenient free online tool for scaling images is available at <http://www.simpleimageresizer.com/>. Lastly, the file names are case-sensitive! So `example.PNG` (upper-case PNG) is not the same as `example.png` (lower-case png), make sure that you have the filename correctly.
-
-@fig-fun shows how much fun I'm having.
+@fig-fun shows me taking a photo, and the photo I took:
 
 ```{r}
 #| label: fig-fun
-#| fig-cap: My kids love colorful dinosaurs.
+#| fig-cap: Me taking a photo & the photo of the secretary bird I took
 #| echo: FALSE
 #| out-width: 100%
-knitr::include_graphics("images/example.png")
+knitr::include_graphics("images/WildlifePhotography.JPG")
+knitr::include_graphics("images/SecretaryBird.jpg")
 ```
