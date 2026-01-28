@@ -1,0 +1,65 @@
+---
+title: GitHub & Markdown Exercise
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: Aggela Polymenis (she/her)
+
+
+# 1. Programming Experience
+
+-   R: beginner 
+
+-   Python: used to be intermediate, but I'm so rusty that I'm definitely back to beginner level now
+
+
+
+
+# 2. Course Goals
+
+1.  Become more comfortable with using R
+
+2.  Learn how to produce publication quality figures
+
+3.  Continue to familiarize myself with LaTeX and markdown syntax
+
+# 3. Favorite equation
+
+
+@eq-fav is the Planck function, and is an equation I fondly remember from my time as an undergrad in Astrophysics. This function describes the relationship between intensity, frequency, and temperature of blackbody radiation. 
+
+$$
+B_\nu = \frac{2h\nu^3/c^2}{e^\frac{h\nu}{kT}-1}
+$${#eq-fav}
+
+{{< pagebreak >}}
+
+# 4. Favorite flow chart
+
+@fig-chart shows a flow chart that accurately describes many of my evenings.
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: A flowchart that illustrates how susceptible I am to peer pressure and also how much I enjoy the Dark Horse.
+graph LR
+    A((Do I want to go <br> to Dark Horse?)) -->|No| B(My friends insist)
+    A --> |Yes| C((Go to Dark Horse))
+    B --> C
+```
+
+
+
+# 5. Something fun
+
+
+@fig-fun shows how much fun I'm having in Colorado.
+
+```{r}
+#| label: fig-fun
+#| fig-cap: This was the first time I ever went skiing!
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("images/ski.jpeg")
+```

@@ -1,0 +1,79 @@
+--- 
+title: GitHub & Markdown Exercise 
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: John Allard He/Him
+
+# 1. Programming Skills
+> What are the main programming languages (if any) that you currently use and what is your approximate level of mastery? Don't worry if you don't have much programming experience yet! This just helps me understand everyone's background and plan accordingly.
+
+-   None
+
+-   still none
+
+::: callout-note
+## Levels
+
+-   beginner = know my way around the language enough to write some basic code
+-   intermediate = know a few tricks and can usually figure out how to solve a problem using language help/online resources
+-   advanced = can write code fluently without needing to stop for help and am generally aware of the language's best practices
+-   expert = understand how the language is structured at a fundamental level and have a very intuitive understanding for efficiently solving any problem I encounter
+:::
+
+# 2. Programming Goals
+
+> List three goals you would like to accomplish through this class. This can be anything from things you'd like to know, skills you'd like to learn or improve, concepts you'd like to understand or apply, etc.
+
+1.  a skill i'd like to learn is how to quickly plot isotope data.
+
+2.  I'd like to explore any tools that will help me visualize geochronological data spatially.
+
+3.  any tools that can create 2-d visualizations for publications would be very useful
+
+# 3. Favorite equation
+
+> Tell & show us one of your favorite equations to practice some LaTeX math. It does not have to be a complicated one. Have fun with it. ($y = mx + b$) just for practice slope intercept of line ($\frac{D} {N} = e^{\lambda * t} -1$) Fundememtal concept of radiometric age dating- proportion of radiogenic daughter nuclides increase with time at rate lambda (\$t = 1/lambda ln (D/N) +1 \$) equation for t, time since radioetric decay of parent to daughter clock started
+
+@eq-fav Fundememtal concept of radiometric age dating- proportion of radiogenic daughter nuclides increase with time at rate lambda.
+
+$$
+\frac{D} {N} = e^{\lambda * t} -1
+$$ {#eq-fav}
+
+{{< pagebreak >}}
+
+# 4. Favorite flow chart
+
+> Draw a little flowchart to practice this charting feature. It does not have to be complicated. Have fun with it. Don't forget to fill in a figure caption under `fig-cap`.
+
+@fig-chart Norwegian approach to weather 
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: Version control flowchart Norwegian approach to weather
+graph LR
+    A{Is there such a thing as bad weather?} -->|Yes| B(FALSE)
+    A --> |No| C[There's only the right gear]
+    B --> C
+```
+
+::: callout-tip
+Click on the "Preview" button above the code block to render your chart or use the [Mermaid Live Editor](https://mermaid.live/edit) if you want to see the output immediately.
+:::
+
+# 5. Something fun
+
+> Add a picture of yourself doing something you enjoy outside school (hiking, cooking, playing music, reading, etc) to the `images` folder and link to it here with a descriptive caption by changing the `fix-cap` below. Make sure that images are not too big and in **jpeg/jpg** or **png** format. A width of 600 to maximally 1200 pixels is typically plenty large (i.e. less than **\~2Mb**). You can scale your image to these dimensions using any photo editing software. For example, a convenient free online tool for scaling images is available at <http://www.simpleimageresizer.com/>. Lastly, the file names are case-sensitive! So `example.PNG` (upper-case PNG) is not the same as `example.png` (lower-case png), make sure that you have the filename correctly.
+
+@fig-fun Geological mapping
+
+```{r}
+#| label: fig-fun
+#| fig-cap: How many gee-awl-oh--gists does it take to take a strike and dip?
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("images/confuzzled.jpg")
+```

@@ -1,0 +1,52 @@
+---
+title: GitHub & Markdown Exercise
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: 
+
+Caroline Thompson (She/Her/Hers)
+
+# 1. Programming Experience
+
+R-Studio (Beginner) I used it for a stats class sophomore year, I have basic I would even say very little understanding of it.
+
+::: callout-note
+:::
+
+# 2. Course Goals
+
+1.  Learn how to use these skills in environmental areas.
+
+2.  Learn basic code and not need to depend on ai
+
+3.  Challenge myself with something that is super uncomfortable for me.
+
+# 3. Favorite equation
+
+$$
+{x=frac{-b \pm \squrt{b^2-4ac}}{2a}}
+$$
+
+# 4. Favorite flow chart
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: Version control flowchart to figure out whether you need a new lamo.
+graph LR
+    A{Does your lamp turn on} --> B(no) --> |Change the bulb| D(Does it turn on now?)  -->|No| E(get a new lamp) 
+    A --> |Yes| C[Awesome]
+    D --> |Yes| C[Awesome]
+```
+
+# 5. Something fun
+
+```{r}
+#| label: hiking
+#| fig-cap: me outside
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("IMG_0503_1_600x450 (1)")
+```

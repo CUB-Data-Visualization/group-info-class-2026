@@ -1,0 +1,54 @@
+---
+title: GitHub & Markdown Exercise
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: Sierra Weirens (she/her)
+
+# 1. Programming Experience
+
+-   R (beginner)
+
+# 2. Course Goals
+
+1.  Learn how to use GitHub proficiency.
+
+2.  Create publication quality figures.
+
+3.  Gain compentency in R and coding.
+
+# 3. Favorite equation
+
+@eq-fav is the pythagorean theorem ($a^2 + b^2 = c^2$) which is one of my favorite equations.
+
+$$
+a^2 + b^2 = c^2
+$$ {#eq-fav}
+
+{{< pagebreak >}}
+
+# 4. Favorite flow chart
+
+@fig-chart shows my favorite flow chart.
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: Simple flowchart to figure out if precipitation is more likely snow or rain.
+graph TB
+    A[Is the air temperature less than 0 degrees C?] -->|Yes| B(Precipitation is snow)
+    A --> |No| C(Precipitation is rain)
+```
+
+# 5. Something fun
+
+@fig-fun shows how much fun I'm having.
+
+```{r}
+#| label: fig-fun
+#| fig-cap: I love hiking and spending time outdoors.
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("images/IMG_7171_1_20.png")
+```

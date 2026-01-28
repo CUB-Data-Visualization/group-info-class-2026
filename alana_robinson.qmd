@@ -1,0 +1,72 @@
+---
+title: GitHub & Markdown Exercise
+format: html
+embed-resources: true
+editor: source
+---
+
+# Name: Alana Robinson (she/her)
+
+
+# 1. Programming Experience
+
+
+-   R (intermediate)
+
+-   Pythin (beginner)
+
+
+
+# 2. Course Goals
+
+
+1.  Improve my fluency in R
+
+2.  Learn more tricks and tools for making a variety of plots
+
+3.  Get more comfortable with surrounding coding tools (git, markdown, etc...)
+
+# 3. Favorite equation
+
+
+@eq-fav is the equation for calculating dilutions ($C1V1 = C2V2$). It's my favorite equation because its simple, versatile, and useful in day to day lab life.
+
+$$
+C1\cdot V1 = C2\cdot V2
+$${#eq-fav}
+
+{{< pagebreak >}}
+
+# 4. Favorite flow chart
+ 
+
+@fig-chart shows my favorite flow chart.
+
+```{mermaid}
+%%| label: fig-chart
+%%| fig-cap: Important flowchart to figure out whether you can and should buy a fancy coffee.
+graph LR
+    A[Should I <br> buy that fancy coffee?] -.-> B((Am I tired?))
+    A[Should I <br> buy that fancy coffee?] -.-> C((Do I have <br> lots of work to do?))
+    A[Should I <br> buy that fancy coffee?] -.-> D((Do I need <br> a little treat?))
+    B --> E{Do I have money?}
+    C --> E
+    D --> E
+    E ==> |No| F(Cry ㅠ﹏ㅠ)
+    E ==> |Yes| G(Coffeeee!!  ˶ˆᗜˆ˵ )
+```
+
+
+
+# 5. Something fun
+
+@fig-fun shows me having fun walking/sitting with my cat.
+
+```{r}
+#| label: fig-fun
+#| fig-cap: Chilling in the sun with Lazarus.
+#| echo: FALSE
+#| out-width: 100%
+knitr::include_graphics("images/IMG_5134_600x800.jpeg")
+```
+
